@@ -1,0 +1,46 @@
+.header {
+  &__container {
+    padding-top: 4rem !important;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    position: relative;
+
+    h2{
+      font-size: 1rem;
+    }
+  }
+
+  // CTA Styles
+  &__cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+
+  // Portrait Styles
+  &__portrait {
+    width: 18rem;
+    height: 18rem;
+    margin: 4rem auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 0.4rem solid var(--color-primary-variant);
+
+    // Media Queries (Small Devices)
+    @media screen and (max-width: 600px) {
+      width: 14rem;
+      height: 14rem;
+    }
+    @media screen and (max-width: 400px) {
+      width: 13rem;
+      height: 13rem;
+    }
+
+    img {
+      background: linear-gradient(var(--color-primary), transparent);
+    }
+  }
+}

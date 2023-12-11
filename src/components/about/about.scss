@@ -1,0 +1,122 @@
+// Define variables
+$transition: var(--transition);
+$color-primary: var(--color-primary);
+$color-light: var(--color-light);
+$color-white: var(--color-white);
+
+.about {
+  &__container {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+
+    // Media Queries (Large Devices)
+    @media screen and (max-width: 1400px) {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+
+  // Portrait Styles
+  &__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 0 0 31% 31%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: relative;
+
+    // Media Queries (Large Devices)
+    @media screen and (max-width: 1400px) {
+      width: 50%;
+      margin: 2rem auto 4rem;
+    }
+
+    // Media Queries (Small Devices)
+    @media screen and (max-width: 600px) {
+      width: 65%;
+      margin: 0 auto 3rem;
+    }
+
+    &-image {
+      position: absolute;
+      filter: drop-shadow(2px 4px 6px black);
+      border-radius: 2rem;
+      overflow: hidden;
+    }
+    &-image2 {
+      position: absolute;
+      filter: drop-shadow(2px 4px 6px black);
+      background: linear-gradient(
+        45deg,
+        transparent,
+        $color-primary,
+        transparent
+      );
+      bottom: 0;
+      clip-path: ellipse(49% 31% at 50% 74%);
+    }
+  }
+
+  // Card Styles
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+    // Media Queries (Medium Devices)
+    @media screen and (max-width: 992px) {
+      gap: 0.5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+
+  &__card {
+    background: transparent;
+    border: 1px solid $color-primary;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    line-height: 1;
+
+    .about__icon {
+      color: $color-primary;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 0.88rem;
+      line-height: 1.7;
+    }
+
+    small {
+      font-size: 0.7rem;
+      color: $color-light;
+    }
+  }
+
+  // Paragraph Styles
+  &__content {
+    p {
+      margin: 2rem 0 2.6rem;
+      color: $color-light;
+
+      // Media Queries (Medium Devices)
+      @media screen and (max-width: 1024px) {
+        margin: 1rem 0 1.5rem;
+      }
+
+      // Media Queries (Small Devices)
+      @media screen and (max-width: 600px) {
+        margin: 1.5rem 0;
+      }
+    }
+  }
+}
