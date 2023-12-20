@@ -1,17 +1,15 @@
 import React from "react";
 import "./header.scss";
-import CTA from "./CTA";
-// import ME from "../../assets/headshots/transparent_headshot.png";
+import NICOLE from "../../assets/nk_hero_image.jpg";
 
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
-        <h1>Nicole Kruse</h1>
-        <CTA />
-        {/* <div className="header__portrait">
-          <img src={ME} alt="Portrait" />
-        </div> */}
+      <div className="container-fluid header__container">
+        <h1>Nicole Kruse Coaching</h1>
+        <div className="header__portrait">
+          <img src={NICOLE} alt="Family Portrait" />
+        </div>
       </div>
     </header>
   );

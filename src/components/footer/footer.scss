@@ -44,6 +44,11 @@
         color: var(--color-light);
       }
 
+      svg{
+        stroke: black;
+        stroke-width: 1px;
+      }
+
       // Media Queries (Medium Devices)
       @media screen and (min-width: 768px) {
         padding: 0;
