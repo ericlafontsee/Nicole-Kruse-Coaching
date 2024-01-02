@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +6,6 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: Roboto;
 }
 
 :root {
@@ -19,12 +16,6 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-black: #000;
   --color-light: rgba(255, 255, 255, 0.6);
-
-  --transition: all 400ms ease;
-
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
 }
 
 html {
@@ -41,11 +32,11 @@ body {
   color: var(--color-black);
   line-height: 1.7;
   background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(244, 238, 225, 0.8730085784313726) 100%
-  );
+  // background: radial-gradient(
+  //   circle,
+  //   rgba(255, 255, 255, 1) 0%,
+  //   rgba(244, 238, 225, 0.8730085784313726) 100%
+  // );
 }
 
 /* ===================== GENERAL STYLES ===================== */
