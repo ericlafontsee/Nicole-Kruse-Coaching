@@ -18,6 +18,7 @@ const Header = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+            <button className="btn btn-primary">Let's get started!</button>
           </div>
           <div className="col-12 col-md-4 header__portrait">
             <img
