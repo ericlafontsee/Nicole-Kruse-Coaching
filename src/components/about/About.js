@@ -20,7 +20,7 @@ const About = () => {
             </p>
             <button className="btn btn-primary">Let's get started!</button>
           </div>
-          <div className="col-12 col-md-4 header__portrait">
+          <div className="col-12 col-md-4 about__portrait">
             <img
               className="img-fluid mx-auto"
               src={NICOLE}
