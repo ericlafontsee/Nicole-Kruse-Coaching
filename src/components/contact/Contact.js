@@ -25,7 +25,7 @@ const Contact = () => {
     <section id="contact">
       <h2>Contact Me</h2>
 
-      <div className="container contact__container">
+      <div className="container-fluid contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon"/>
