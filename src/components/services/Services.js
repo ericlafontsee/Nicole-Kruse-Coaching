@@ -3,39 +3,45 @@ import "./services.scss";
 
 const Services = () => {
   return (
-    <div className="container services_container text-center">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            {/* <img src="" class="card-img-top" alt=""> */}
-            <div class="card-body">
-              <h5 class="card-title">Custom Macro Numbers</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
+    <div class="container service__container text-center">
+      <div class="row">
+        <div class="service__options col-lg-9 mx-auto py-3 shadow-blur">
+          <div class="row">
+            <div class="service__option col-md-4 position-relative">
+              <div class="p-3 text-center">
+                <h1 class="">
+                  <span>300</span>+
+                </h1>
+                <h5 class="mt-3">Macro Guide</h5>
+                <p class="small">
+                  Custom Macro Numbers with unlimited adjustments during
+                  coaching period
+                </p>
+              </div>
+              <hr />
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            {/* <img src="..." class="card-img-top" alt="..."> */}
-            <div class="card-body">
-              <h5 class="card-title">Weekly check ins</h5>
-              <p class="card-text">This is a short card.</p>
+            <div class="service__option col-md-4 position-relative">
+              <div class="p-3 text-center">
+                <h1 class="text-gradient text-primary">
+                  {" "}
+                  <span>100</span>+
+                </h1>
+                <h5 class="mt-3">Check Ins</h5>
+                <p class="small">
+                Weekly Check ins using comprehensive check in sheets
+                </p>
+              </div>
+              <hr />
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            {/* <img src="..." class="card-img-top" alt="..."> */}
-            <div class="card-body">
-              <h5 class="card-title">Grocery Guide</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
-              </p>
+            <div class="service__option col-md-4">
+              <div class="p-3 text-center">
+                <h1>39</h1>
+                <h5 class="mt-3">Grocery Guide</h5>
+                <p class="small">
+                  {/* Save 3-4 weeks of work when you use our pre-made pages for
+                  your website */}
+                </p>
+              </div>
             </div>
           </div>
         </div>

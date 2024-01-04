@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../components/header/Header";
 import Nav from "../../components/nav/Nav";
 import Hero from "../../components/hero/Hero";
 import Services from "../../components/services/Services";
@@ -15,8 +14,7 @@ const Home = () => {
       <Nav />
       <Hero />
       <Services />
-      <Header />
-      {/* <About /> */}
+      <About />
       {/* <Experience /> */}
       {/* <Portfolio /> */}
       {/* <Testimonials /> */}

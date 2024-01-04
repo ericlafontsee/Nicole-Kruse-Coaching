@@ -1,48 +1,32 @@
 import React from "react";
 import "./about.scss";
-import { BsCodeSlash } from "react-icons/bs";
-import { FiAward } from "react-icons/fi";
-import { RiGraduationCapLine } from "react-icons/ri";
-// import ME from "../../assets/headshots/About_me_no_bg.png";
+import NICOLE from "../../assets/headshot-7.jpg";
 
 const About = () => {
   return (
     <section id="about">
-      <h2>About Me</h2>
       <div className="container about__container">
-        <div className="about__me">
-          {/* <img
-            className="about__me-image"
-            src={ME}
-            alt="Portrait of Eric LaFontsee"
-          />
-          <img
-            className="about__me-image2"
-            src={ME}
-            alt="Portrait of Eric LaFontsee"
-          /> */}
-        </div>
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <BsCodeSlash className="about__icon" />
-              <h3>Experience</h3>
-              <small>4+ Years Working </small>
-            </article>
-            <article className="about__card">
-              <FiAward className="about__icon" />
-              <h3>Recognition</h3>
-              <small>4 Company Awards</small>
-            </article>
-            <article className="about__card">
-              <RiGraduationCapLine className="about__icon" />
-              <h3>Alumni Speaker</h3>
-              <small>Guest Presentor</small>
-            </article>
+        <div className="row align-items-center justify-content-evenly  mt-5">
+          <div className="col-12 col-md-6">
+            <h1>Nicole Kruse Coaching</h1>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button className="btn btn-primary">Let's get started!</button>
           </div>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+          <div className="col-12 col-md-4 header__portrait">
+            <img
+              className="img-fluid mx-auto"
+              src={NICOLE}
+              alt="Nicole Kruse Headshot"
+            />
+          </div>
         </div>
       </div>
     </section>
