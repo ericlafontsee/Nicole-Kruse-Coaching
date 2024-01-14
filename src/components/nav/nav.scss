@@ -1,3 +1,13 @@
 .navbar-brand{
     max-width: 75px;
 }
+
+.navbar{
+    transition: all 0.5s;
+}
+
+.navbar-scrolled{
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: #ffffffcc !important;
+}

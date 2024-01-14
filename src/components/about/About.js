@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="col-12 col-md-4 about__portrait">
             <img
-              className="img-fluid mx-auto"
+              className="img-fluid mx-auto about__portrait--image"
               src={NICOLE}
               alt="Nicole Kruse Headshot"
             />

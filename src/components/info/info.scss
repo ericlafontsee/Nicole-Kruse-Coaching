@@ -11,8 +11,11 @@
     // Portrait Styles
     &__portrait {
       position: relative;
-      border-radius: 0.25rem;
       z-index: 0;
+
+      &--image{
+        border-radius: 1rem;
+      }
 
       &:after {
         content: "";
@@ -24,7 +27,7 @@
         bottom: 20px;
         right: 20px;
         z-index: -1;
-        border-radius: 0.25rem;
+        border-radius: 1rem;
       }
     }
   }

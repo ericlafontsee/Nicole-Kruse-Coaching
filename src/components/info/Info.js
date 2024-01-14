@@ -9,7 +9,7 @@ const Info = () => {
       <div className="row align-items-center justify-content-evenly mt-5">
         <div className="col-12 col-md-4 info__portrait">
           <img
-            className="img-fluid mx-auto"
+            className="img-fluid mx-auto info__portrait--image"
             src={NICOLE}
             alt="Nicole Kruse Headshot"
           />
