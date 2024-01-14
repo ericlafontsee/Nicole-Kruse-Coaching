@@ -13,6 +13,8 @@
 
     &--image{
       border-radius: 1rem;
+      box-shadow: inset 0 0 1px 1px hsla(0, 0%, 100%, 0.9),
+      0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
     }
 
     &:after {

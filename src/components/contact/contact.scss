@@ -7,58 +7,6 @@ $transition: var(--transition);
 #contact{
 .contact {
   &__container {
-
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
-
-    // Media Queries (Medium DEVICES)
-    @media screen and (max-width: 1024px) {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-
-    // Media Queries (Small Devices)
-    @media screen and (max-width: 600px) {
-      width: $container-width-sm;
-    }
-  }
-
-  // Contact Card Styles
-  &__options {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-  }
-  &__option {
-    // background: $color-bg-variant;
-    padding: 1.2rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    border: 1px solid transparent;
-    transition: $transition;
-
-    &:hover {
-      background: transparent;
-      border-color: $color-primary-variant;
-    }
-
-    &-icon {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    h3 {
-      font-size: 1rem;
-      color: var(--color-white);
-    }
-
-    a {
-      margin-top: 0.7rem;
-      display: inline-block;
-      font-size: 0.8rem;
-    }
   }
 
   // Form styles

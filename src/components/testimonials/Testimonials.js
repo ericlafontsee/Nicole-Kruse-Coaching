@@ -1,18 +1,19 @@
 import React from "react";
 import "./testimonials.scss";
+import { RiStarSFill } from "react-icons/ri";
 
 const data = [
   {
     review:
-      "Fusce ut pulvinar justo. Proin vulputate accumsan massa ut tempus. Morbi a lectus eu justo interdum tristique. Donec consectetur velit ac imperdiet iaculis. Nam sit amet nibh molestie, feugiat lorem quis, elementum sapien. Praesent blandit enim ante, eu sollicitudin tortor sodales ut. Mauris interdum a ex nec auctor. Quisque varius diam non lectus tempor laoreet in eget magna. Fusce eu erat condimentum, rutrum odio ut, ultricies orci."
+      "Morbi a lectus eu justo interdum tristique. Donec consectetur velit ac imperdiet iaculis. Nam sit amet nibh molestie, feugiat lorem quis, elementum sapien. Praesent blandit enim ante, eu sollicitudin tortor sodales ut. Mauris interdum a ex nec auctor. Quisque varius diam non lectus tempor laoreet in eget magna. Fusce eu erat condimentum, rutrum odio ut, ultricies orci."
   },
   {
     review:
-      "Fusce ut pulvinar justo. Proin vulputate accumsan massa ut tempus. Morbi a lectus eu justo interdum tristique. Donec consectetur velit ac imperdiet iaculis. Nam sit amet nibh molestie, feugiat lorem quis, elementum sapien. Praesent blandit enim ante, eu sollicitudin tortor sodales ut. Mauris interdum a ex nec auctor. Quisque varius diam non lectus tempor laoreet in eget magna. Fusce eu erat condimentum, rutrum odio ut, ultricies orci."
+      "Morbi a lectus eu justo interdum tristique. Donec consectetur velit ac imperdiet iaculis. Nam sit amet nibh molestie, feugiat lorem quis, elementum sapien. Praesent blandit enim ante, eu sollicitudin tortor sodales ut. Mauris interdum a ex nec auctor. Quisque varius diam non lectus tempor laoreet in eget magna. Fusce eu erat condimentum, rutrum odio ut, ultricies orci."
   },
   {
     review:
-      "Fusce ut pulvinar justo. Proin vulputate accumsan massa ut tempus. Morbi a lectus eu justo interdum tristique. Donec consectetur velit ac imperdiet iaculis. Nam sit amet nibh molestie, feugiat lorem quis, elementum sapien. Praesent blandit enim ante, eu sollicitudin tortor sodales ut. Mauris interdum a ex nec auctor. Quisque varius diam non lectus tempor laoreet in eget magna. Fusce eu erat condimentum, rutrum odio ut, ultricies orci."
+      "Morbi a lectus eu justo interdum tristique. Donec consectetur velit ac imperdiet iaculis. Nam sit amet nibh molestie, feugiat lorem quis, elementum sapien. Praesent blandit enim ante, eu sollicitudin tortor sodales ut. Mauris interdum a ex nec auctor. Quisque varius diam non lectus tempor laoreet in eget magna. Fusce eu erat condimentum, rutrum odio ut, ultricies orci."
   }
 ];
 
@@ -31,13 +32,18 @@ const Testimonials = () => {
               <div className="col-lg-4 col-md-8" key={index}>
                 <div className={cardClasses}>
                   <div className="card-body">
+                  <div class="author">
+                    <div class="name">
+                      <h6 class="mb-0 font-weight-bolder">John Smith</h6>
+                    </div>
+                  </div>
                     <p className="testimonials__card-review mt-4">{review}</p>
                     <div className="rating mt-3">
-                      <i className="fas fa-star" aria-hidden="true"></i>
-                      <i className="fas fa-star" aria-hidden="true"></i>
-                      <i className="fas fa-star" aria-hidden="true"></i>
-                      <i className="fas fa-star" aria-hidden="true"></i>
-                      <i className="fas fa-star" aria-hidden="true"></i>
+                      <RiStarSFill />
+                      <RiStarSFill />
+                      <RiStarSFill />
+                      <RiStarSFill />
+                      <RiStarSFill />
                     </div>
                   </div>
                 </div>

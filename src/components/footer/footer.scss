@@ -7,6 +7,21 @@
     margin-top: 7rem;
   }
 
+  // Horizontal rule dividing footer from contact form
+  &__hr{
+    background-color: transparent;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 0, 0, 0.4),
+      transparent
+    ) !important;
+    border-top: none !important;
+    height: 1px !important;
+    opacity: 0.25 !important;
+    margin: 1rem 0;
+  }
+
   // Social Media Styles
   &__socials {
     display: flex;
@@ -34,6 +49,8 @@
       margin-bottom: 0;
     }
 
+
+
     a {
       // color: var(--color-primary);
       color: var(--color-primary);
@@ -45,11 +62,9 @@
         color: var(--color-light);
       }
 
-      svg{
+      svg {
         stroke: black;
         stroke-width: 6px;
-
-        
       }
 
       // Media Queries (Medium Devices)
@@ -80,6 +95,6 @@
   // Copyright Styles
   &__copyright {
     margin-bottom: 4rem;
-    color: var(--color-light);
+    color: #000;
   }
 }

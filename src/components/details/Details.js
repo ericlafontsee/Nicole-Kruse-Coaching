@@ -4,25 +4,13 @@ import "./details.scss";
 const Details = () => {
   return (
     <section id="details">
-      <div class="container-fluid details__container overflow-hidden">
-        <div class="row align-items-center">
-          <div id="option1" class="col details__option rounded-4">
-            <p>
-              Fusce ut pulvinar justo. Proin vulputate accumsan massa ut tempus.
-              Morbi a lectus eu justo interdum tristique. Donec consectetur
-            </p>
+      <div className="container details__container overflow-hidden">
+        <div className="row align-items-center justify-content-center">
+          <div id="option1" className="col details__option ">
           </div>
-          <div id="option2" class="col details__option mx-3 rounded-4">
-            <p>
-              Fusce ut pulvinar justo. Proin vulputate accumsan massa ut tempus.
-              Morbi a lectus eu justo interdum tristique. Donec consectetur
-            </p>
+          <div id="option2" className="col mx-3 details__option ">
           </div>
-          <div id="option3" class="col details__option rounded-4">
-            <p>
-              Fusce ut pulvinar justo. Proin vulputate accumsan massa ut tempus.
-              Morbi a lectus eu justo interdum tristique. Donec consectetur
-            </p>
+          <div id="option3" className="col details__option ">
           </div>
         </div>
       </div>

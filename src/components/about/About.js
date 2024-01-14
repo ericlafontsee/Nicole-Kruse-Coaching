@@ -8,7 +8,7 @@ const About = () => {
       <div className="container about__container">
         <div className="row align-items-center justify-content-evenly  mt-5">
           <div className="col-12 col-md-6">
-            <h1>Nicole Kruse Coaching</h1>
+            <h2>About Me</h2>
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
