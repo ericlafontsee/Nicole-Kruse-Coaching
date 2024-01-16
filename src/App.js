@@ -11,7 +11,7 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} basename="ericlafontsee/Nicole-Kruse-Coaching"/>;
+  return <RouterProvider router={router} />;
 };
 
 export default App;
