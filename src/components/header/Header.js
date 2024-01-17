@@ -4,9 +4,9 @@ import "./header.scss";
 const Header = () => {
   return (
     <header className="container-fluid hero__container">
-      <div className="container py-lg-3 py-xl-5 my-5 z-3">
-        <div className="row my-5">
-          <div className="col-sm-9 col-md-8 col-lg-5 header-copy p-3">
+      <div className=" py-lg-3 py-xl-5 my-5 z-3 mx-3 mx-xl-auto">
+        <div className="row my-5 justify-content-end justify-content-md-start">
+          <div className="col-sm-9 col-md-5 header-copy p-3">
             <div className="">
               <h1 className="display-5 mb-lg-4">
                 Hi, I'm <span className="fw-bolder">Nicole</span>
