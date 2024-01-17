@@ -21,7 +21,7 @@ const Nav = () => {
     };
   }, []); // Empty dependency array ensures that this effect runs once on mount
 
-  const navClass = scrolled ? "navbar navbar-scrolled navbar-expand-sm fixed-top" : "navbar navbar-expand-sm fixed-top";
+  const navClass = scrolled ? "navbar navbar-scrolled navbar-expand-lg fixed-top" : "navbar navbar-expand-lg fixed-top";
 
   return (
     <nav className={navClass}>

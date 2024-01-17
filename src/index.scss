@@ -52,7 +52,7 @@ h1 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 4rem 0;
   min-height: 720px;
 
   h2,
@@ -63,6 +63,10 @@ section {
 
   h2 {
     margin-bottom: 3rem;
+  }
+
+  @media screen and (min-width: 768px){
+    padding: 8rem 0;
   }
 }
 
@@ -112,26 +116,4 @@ img {
 
 small {
   font-size: 0.85rem;
-}
-
-/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
-  }
-}
-
-/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section > h2 {
-    margin-bottom: 2rem;
-  }
 }
