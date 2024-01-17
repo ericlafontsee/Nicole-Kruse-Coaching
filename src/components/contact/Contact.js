@@ -35,7 +35,7 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="row justify-content-center align-items-center">
-          <form className="col-8 contact__form" ref={form} onSubmit={sendEmail}>
+          <form className="col-10 col-lg-8 contact__form" ref={form} onSubmit={sendEmail}>
             <input
               type="text"
               name="name"
