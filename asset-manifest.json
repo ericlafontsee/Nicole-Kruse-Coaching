@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nicole-Kruse-Coaching/static/css/main.9fa34aaf.css",
-    "main.js": "/Nicole-Kruse-Coaching/static/js/main.d6383f20.js",
+    "main.css": "/Nicole-Kruse-Coaching/static/css/main.51562973.css",
+    "main.js": "/Nicole-Kruse-Coaching/static/js/main.467be8c1.js",
     "static/media/nk-mobile-hero.jpeg": "/Nicole-Kruse-Coaching/static/media/nk-mobile-hero.86a16afdb2b0e6e9af97.jpeg",
     "static/media/headshot-7.jpg": "/Nicole-Kruse-Coaching/static/media/headshot-7.1b9ab9c14d40fa460671.jpg",
     "static/media/headshot-3.jpg": "/Nicole-Kruse-Coaching/static/media/headshot-3.0eabed8e8c6de504fb9f.jpg",
@@ -11,11 +11,11 @@
     "static/media/headshot-2.jpg": "/Nicole-Kruse-Coaching/static/media/headshot-2.ed65a7f6ad110481ada6.jpg",
     "static/media/logo-1.png": "/Nicole-Kruse-Coaching/static/media/logo-1.4055d2e7daded12de742.png",
     "index.html": "/Nicole-Kruse-Coaching/index.html",
-    "main.9fa34aaf.css.map": "/Nicole-Kruse-Coaching/static/css/main.9fa34aaf.css.map",
-    "main.d6383f20.js.map": "/Nicole-Kruse-Coaching/static/js/main.d6383f20.js.map"
+    "main.51562973.css.map": "/Nicole-Kruse-Coaching/static/css/main.51562973.css.map",
+    "main.467be8c1.js.map": "/Nicole-Kruse-Coaching/static/js/main.467be8c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fa34aaf.css",
-    "static/js/main.d6383f20.js"
+    "static/css/main.51562973.css",
+    "static/js/main.467be8c1.js"
   ]
 }
