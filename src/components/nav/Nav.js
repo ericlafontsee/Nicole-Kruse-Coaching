@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./nav.scss";
-import LOGO from "../../assets/logo-1.png";
+import LOGO from "../../assets/nk-logo.png";
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
