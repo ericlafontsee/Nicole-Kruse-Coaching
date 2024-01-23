@@ -17,7 +17,7 @@ const Details = () => {
         <Swiper
           className="details__container"
           // install Swiper modules
-          modules={[Pagination]}
+          modules={[Autoplay, Pagination]}
           spaceBetween={10}
           slidesPerView={1}
           autoplay={{
@@ -30,7 +30,6 @@ const Details = () => {
               slidesPerView: 3
             }
           }}
-          modules={[Autoplay, Pagination]}
           pagination={{ clickable: true }}
         >
           <SwiperSlide id="option1" className="overflow-visible">

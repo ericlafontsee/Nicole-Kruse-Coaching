@@ -3,7 +3,7 @@ import "./testimonials.scss";
 import { RiStarSFill } from "react-icons/ri";
 
 // import Swiper core and required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -34,15 +34,18 @@ const Testimonials = () => {
         <div className="row mt-6">
           <Swiper
             className="container testimonial__container"
-            // install Swiper modules
-            modules={[Pagination]}
+            modules={[Autoplay, Pagination]}
             spaceBetween={40}
             slidesPerView={1}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
             breakpoints={{
               // when window width is >= 768px
               768: {
-                slidesPerView: 3,
-              },
+                slidesPerView: 3
+              }
             }}
             pagination={{ clickable: true }}
           >
