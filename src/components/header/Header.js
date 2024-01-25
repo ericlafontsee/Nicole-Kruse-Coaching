@@ -9,12 +9,31 @@ const Header = () => {
           <div className="col-sm-9 col-md-5 header-copy p-3">
             <div className="">
               <h1 className="display-5 mb-lg-4">
-                Hi, I'm <span className="fw-bolder">Nicole</span>
+                Hi, I'm Nicole
               </h1>
-              <p className="text-body fs-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere risus metus, sed venenatis.</p>
+              <p className="text-body fs-lg">
+                <span>There</span>
+                <span>are</span>
+                <span>no</span>
+                <span>limits</span>
+                <span>to</span>
+                <span>what</span>
+                <span>you</span>
+                <span>can</span>
+                <span>accomplish,</span>
+                <span>except</span>
+                <span>the</span>
+                <span>limits</span>
+                <span>you</span>
+                <span>place</span>
+                <span>on</span>
+                <span>your</span>
+                <span>own</span>
+                <span>thinking.</span>
+              </p>
             </div>
             <div className="mt-5">
-              <button className='btn btn-primary'>Let's Chat!</button>
+              <button className="btn btn-primary">Let's Chat!</button>
             </div>
           </div>
         </div>
