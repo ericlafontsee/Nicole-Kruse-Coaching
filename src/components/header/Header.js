@@ -4,7 +4,7 @@ import "./header.scss";
 const Header = () => {
   return (
     <header id="home" className="container-fluid hero__container">
-      <div className="container py-lg-3 py-xl-5 my-5 z-3 mx-3 mx-xl-auto">
+      <div className="container px-lg-3 px-xl-5 my-5 z-3 mx-3 mx-xl-auto">
         <div className="row my-5 justify-content-end justify-content-lg-start">
           <div className="col-sm-9 col-md-5 header-copy p-0">
               <h1 className="display-5 mb-lg-4">
@@ -18,7 +18,7 @@ const Header = () => {
                 <span>here!</span>
               </p>
             <div className="mt-5">
-              <button className="btn btn-primary">Let's Chat!</button>
+              <a href="#contact" className="btn btn-primary">Let's Chat!</a>
             </div>
           </div>
         </div>

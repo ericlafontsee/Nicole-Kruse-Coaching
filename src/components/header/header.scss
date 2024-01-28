@@ -3,7 +3,7 @@
     background-image: url("../../assets/nk-mobile-hero.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 32% 100%;
     padding-top: 75px;
 
     display: flex;
@@ -83,8 +83,7 @@
         animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
 
-
-      .btn{
+      .btn {
         opacity: 0;
         animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
@@ -97,6 +96,9 @@
       }
     }
 
+    @media screen and (min-width: 576px) {
+      background-position: center center;
+    }
     @media screen and (min-width: 992px) {
       background-image: url("../../assets/nk-hero.jpg");
       background-position: 80% 100%;
@@ -120,7 +122,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-      background-position: 66% 100%;
+      background-position: 66% 40%;
     }
     @media screen and (min-width: 1400px) {
       background-position: top center;
