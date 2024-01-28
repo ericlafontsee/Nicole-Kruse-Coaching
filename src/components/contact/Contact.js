@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
 import "./contact.scss";
-import { MdOutlineEmail } from "react-icons/md";
-import { AiOutlinePhone } from "react-icons/ai";
 import emailjs from "emailjs-com";
 
 const Contact = () => {

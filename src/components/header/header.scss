@@ -47,6 +47,7 @@
 
       p {
         color: white !important;
+        max-width: 40ch;
         transform: scale(0.94);
         animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
       }
@@ -59,6 +60,7 @@
         display: inline-block;
         opacity: 0;
         filter: blur(4px);
+        margin-right: 0.25rem;
       }
 
       span:nth-child(1) {
@@ -81,56 +83,10 @@
         animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
 
-      span:nth-child(6) {
+
+      .btn{
+        opacity: 0;
         animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(7) {
-        animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(8) {
-        animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(9) {
-        animation: fade-in 0.8s 1.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(10) {
-        animation: fade-in 0.8s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(11) {
-        animation: fade-in 0.8s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(12) {
-        animation: fade-in 0.8s 2.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(13) {
-        animation: fade-in 0.8s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(14) {
-        animation: fade-in 0.8s 2.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(15) {
-        animation: fade-in 0.8s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(16) {
-        animation: fade-in 0.8s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(17) {
-        animation: fade-in 0.8s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-      }
-
-      span:nth-child(18) {
-        animation: fade-in 0.8s 2.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
 
       @keyframes fade-in {
@@ -138,10 +94,6 @@
           opacity: 1;
           filter: blur(0);
         }
-      }
-
-      .btn{
-        animation: showup 4s ease-in;
       }
     }
 
@@ -157,8 +109,6 @@
           transparent
         );
         background-color: transparent;
-        // backdrop-filter: saturate(100%) blur(10px);
-        // background-color: rgba(255, 255, 255, 0.5);
       }
       .header-copy {
         color: black;

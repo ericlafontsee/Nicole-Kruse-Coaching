@@ -9,29 +9,27 @@ const Services = () => {
           <div className="row">
             <div className="service__option col-md-4 position-relative">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Macro Guide</h5>
+                <h5 className="mt-3">Balance</h5>
                 <p className="small">
-                  Custom Macro Numbers with unlimited adjustments during
-                  coaching period
+                Enjoy what you love while prioritizing your health goals
                 </p>
               </div>
               <hr />
             </div>
             <div className="service__option col-md-4 position-relative">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Check Ins</h5>
+                <h5 className="mt-3">Intention</h5>
                 <p className="small">
-                Weekly Check ins using comprehensive check in sheets
+                Learn how to small changes can impact your results
                 </p>
               </div>
               <hr />
             </div>
             <div className="service__option col-md-4">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Grocery Guide</h5>
+                <h5 className="mt-3">Sustainability</h5>
                 <p className="small">
-                  {/* Save 3-4 weeks of work when you use our pre-made pages for
-                  your website */}
+                Set yourself up for long term success
                 </p>
               </div>
             </div>
