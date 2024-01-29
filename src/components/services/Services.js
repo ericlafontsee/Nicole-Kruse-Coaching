@@ -9,7 +9,7 @@ const Services = () => {
           <div className="row">
             <div className="service__option col-md-4 position-relative">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Balance</h5>
+                <h3 className="mt-3">Balance</h3>
                 <p className="small">
                 Enjoy what you love while prioritizing your health goals
                 </p>
@@ -18,7 +18,7 @@ const Services = () => {
             </div>
             <div className="service__option col-md-4 position-relative">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Intention</h5>
+                <h3 className="mt-3">Intention</h3>
                 <p className="small">
                 Learn how to small changes can impact your results
                 </p>
@@ -27,7 +27,7 @@ const Services = () => {
             </div>
             <div className="service__option col-md-4">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Sustainability</h5>
+                <h3 className="mt-3">Sustainability</h3>
                 <p className="small">
                 Set yourself up for long term success
                 </p>

@@ -10,7 +10,7 @@ const Header = () => {
               <h1 className="display-5 mb-lg-4">
                 Hi, I'm Nicole
               </h1>
-              <p className="fs-lg">
+              <p className="">
                 <span>I'm</span>
                 <span>so</span>
                 <span>glad</span>

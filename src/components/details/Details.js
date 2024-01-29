@@ -35,34 +35,30 @@ const Details = () => {
           <SwiperSlide id="option1" className="overflow-visible">
             <div className="service__option col-md-4">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Macro Guide</h5>
+                <h3 className="mt-3">Balance</h3>
                 <p className="small">
-                  Custom Macro Numbers with unlimited adjustments during
-                  coaching period
+                  Enjoy what you love while prioritizing your health goals
                 </p>
               </div>
               <hr />
             </div>
           </SwiperSlide>
           <SwiperSlide id="option2" className="overflow-visible">
-          <div className="service__option col-md-4">
+            <div className="service__option col-md-4">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Check Ins</h5>
+                <h3 className="mt-3">Intention</h3>
                 <p className="small">
-                Weekly Check ins using comprehensive check in sheets
+                  Learn how to small changes can impact your results
                 </p>
               </div>
               <hr />
             </div>
           </SwiperSlide>
           <SwiperSlide id="option3" className="overflow-visible">
-             <div className="service__option col-md-4">
+            <div className="service__option col-md-4">
               <div className="p-3 text-center">
-                <h5 className="mt-3">Grocery Guide</h5>
-                <p className="small">
-                  {/* Save 3-4 weeks of work when you use our pre-made pages for
-                  your website */}
-                </p>
+                <h3 className="mt-3">Sustainability</h3>
+                <p className="small">Set yourself up for long term success</p>
               </div>
             </div>
           </SwiperSlide>

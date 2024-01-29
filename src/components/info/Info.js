@@ -22,8 +22,8 @@ const Info = () => {
           </div>
           <div className="col-10 col-md-6 mt-5 mt-md-0">
             <div className="ps-md-4 ps-xl-0">
-              <h2 className="h1 pb-3 mb-2 mb-md-3 mb-xl-4">1:1 Coaching</h2>
-              <h3 className="h1 pb-3 mb-2 mb-md-3 mb-xl-4">What’s included:</h3>
+              <h2 className="pb-3 mb-2 mb-md-3 mb-xl-4">1:1 Coaching</h2>
+              <h3 className="pb-3 mb-2 mb-md-3 mb-xl-4">What’s included:</h3>
               <ul className="list-unstyled pb-1 pb-xl-2">
                 <li className="d-flex fs-lg pb-1 mb-3">
                 <IoDocumentTextOutline className="fs-4 mt-n1 me-3" />

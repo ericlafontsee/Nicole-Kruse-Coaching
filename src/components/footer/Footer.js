@@ -7,10 +7,10 @@ const Footer = () => {
     <footer className="footer__container">
       <hr className="footer__hr" />
       <div className="footer__socials">
-      <a href="" title="Instagram" target="_blank">
+      <a href="https://www.instagram.com/nicolekrusecoaching/" title="Instagram" target="_blank">
         <FaInstagram />
       </a>
-      <a href="" title="Facebook" target="_blank">
+      <a href="https://www.facebook.com/nicole.lafontsee" title="Facebook" target="_blank">
         <FaFacebook />
       </a>
       </div>
