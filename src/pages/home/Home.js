@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "../../components/nav/Nav";
 import Header from "../../components/header/Header";
-import Services from "../../components/services/Services";
 import About from "../../components/about/About";
 import Details from "../../components/details/Details";
 import Info from "../../components/info/Info";
@@ -15,7 +14,6 @@ const Home = () => {
       <Header />
       <About />
       <Details />
-      <Services />
       <Info />
       <Testimonials />
       <Contact />

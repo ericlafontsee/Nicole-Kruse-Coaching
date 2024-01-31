@@ -31,16 +31,11 @@ const Testimonials = () => {
     <section id="testimonials">
       <h2>Testimonials</h2>
       <div className="container testimonials__container">
-        <div className="row mt-6">
           <Swiper
-            className="container testimonial__container"
+            className="testimonial__container"
             modules={[Autoplay, Pagination]}
             spaceBetween={40}
             slidesPerView={1}
-            autoplay={{
-              delay: 4000,
-              disableOnInteraction: false
-            }}
             breakpoints={{
               // when window width is >= 768px
               768: {
@@ -76,7 +71,6 @@ const Testimonials = () => {
               );
             })}
           </Swiper>
-        </div>
       </div>
     </section>
   );

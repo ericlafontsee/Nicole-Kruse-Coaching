@@ -1,5 +1,6 @@
 import React from "react";
 import "./details.scss";
+import DetailCards from "./DetailCards";
 
 // import Swiper core and required modules
 import { Autoplay, Pagination } from "swiper/modules";
@@ -21,7 +22,7 @@ const Details = () => {
           spaceBetween={10}
           slidesPerView={1}
           autoplay={{
-            delay: 2500,
+            delay: 3500,
             disableOnInteraction: false
           }}
           breakpoints={{
@@ -33,29 +34,27 @@ const Details = () => {
           pagination={{ clickable: true }}
         >
           <SwiperSlide id="option1" className="overflow-visible">
-            <div className="service__option col-md-4">
+            <div className="details__option col-md-4">
               <div className="p-3 text-center">
                 <h3 className="mt-3">Balance</h3>
                 <p className="small">
                   Enjoy what you love while prioritizing your health goals
                 </p>
               </div>
-              <hr />
             </div>
           </SwiperSlide>
           <SwiperSlide id="option2" className="overflow-visible">
-            <div className="service__option col-md-4">
+            <div className="details__option col-md-4">
               <div className="p-3 text-center">
                 <h3 className="mt-3">Intention</h3>
                 <p className="small">
                   Learn how to small changes can impact your results
                 </p>
               </div>
-              <hr />
             </div>
           </SwiperSlide>
           <SwiperSlide id="option3" className="overflow-visible">
-            <div className="service__option col-md-4">
+            <div className="details__option col-md-4">
               <div className="p-3 text-center">
                 <h3 className="mt-3">Sustainability</h3>
                 <p className="small">Set yourself up for long term success</p>
@@ -63,6 +62,7 @@ const Details = () => {
             </div>
           </SwiperSlide>
         </Swiper>
+        <DetailCards />
       </div>
     </section>
   );

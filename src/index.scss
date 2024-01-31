@@ -13,9 +13,8 @@
 :root {
   font-size: 1.2rem;
   --color-bg: #fff;
-  --color-bg-variant: #05182c;
   --color-primary: #ebcfc4;
-  --color-primary-variant: #ebcfc4;
+  --color-primary-variant: #fee9e1;
   --color-black: #000;
   --color-light: rgba(255, 255, 255, 0.6);
 }
@@ -29,8 +28,8 @@ html {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  color:#333333;
+  font-family: "Quicksand", sans-serif;
+  color: #333333;
   line-height: 1.7;
   background-color: #ffffff;
   background-attachment: fixed;
@@ -51,7 +50,7 @@ h1 {
   font-size: 2.5rem;
 }
 
-h3{
+h3 {
   font-size: 1.3rem;
 }
 
@@ -64,52 +63,42 @@ section {
     text-align: center;
   }
 
-
   h2 {
     margin-bottom: 3rem;
   }
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     padding: 8rem 0;
   }
 }
 
-.text-light {
-  color: var(--color-light);
-}
-
 a {
   color: var(--color-primary);
-  transition: var(--transition);
 }
 
 a:hover {
   color: var(--color-white);
 }
 
-.btn {
+.btn-primary {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
   padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
-  transition: var(--transition);
-}
-
-.btn:hover {
-  color: var(--color-white);
-  border-color: var(--color-primary-variant);
-  background: transparent;
-}
-
-.btn-primary {
   background: var(--color-primary);
   color: var(--color-black);
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--color-primary) !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 50px;
+
+  &:hover {
+    color: rgba(0,0,0,0.5) !important;
+    background: var(--color-primary-variant) !important;
+  }
+
+  &:active{
+    background-color: transparent !important;
+  }
 }
 
 img {
