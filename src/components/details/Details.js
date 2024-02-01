@@ -13,10 +13,11 @@ import "swiper/css/pagination";
 
 const Details = () => {
   return (
-    <section id="details">
+    <section id="foundation">
+      <h2>Foundation</h2>
       <div className="container">
         <Swiper
-          className="details__container"
+          className="foundation__container"
           // install Swiper modules
           modules={[Autoplay, Pagination]}
           spaceBetween={10}
@@ -34,7 +35,7 @@ const Details = () => {
           pagination={{ clickable: true }}
         >
           <SwiperSlide id="option1" className="overflow-visible">
-            <div className="details__option col-md-4">
+            <div className="foundation__card col-md-4">
               <div className="p-3 text-center">
                 <h3 className="mt-3">Balance</h3>
                 <p className="small">
@@ -44,7 +45,7 @@ const Details = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide id="option2" className="overflow-visible">
-            <div className="details__option col-md-4">
+            <div className="foundation__card col-md-4">
               <div className="p-3 text-center">
                 <h3 className="mt-3">Intention</h3>
                 <p className="small">
@@ -54,7 +55,7 @@ const Details = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide id="option3" className="overflow-visible">
-            <div className="details__option col-md-4">
+            <div className="foundation__card col-md-4">
               <div className="p-3 text-center">
                 <h3 className="mt-3">Sustainability</h3>
                 <p className="small">Set yourself up for long term success</p>

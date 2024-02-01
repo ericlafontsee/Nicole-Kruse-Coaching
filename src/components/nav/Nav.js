@@ -49,7 +49,22 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                About Me
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#foundation">
+                Foundation
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#coaching">
+                Coaching
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#testimonials">
+                Testimonials
               </a>
             </li>
             <li className="nav-item">

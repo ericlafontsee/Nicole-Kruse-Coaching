@@ -100,9 +100,10 @@
     @media screen and (min-width: 576px) {
       background-position: center center;
     }
+
     @media screen and (min-width: 992px) {
       background-image: url("../../assets/nk-hero.jpg");
-      background-position: 80% 100%;
+      background-position: 80% 20%;
 
       &:before {
         background-image: linear-gradient(
