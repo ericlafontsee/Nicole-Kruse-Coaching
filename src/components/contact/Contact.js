@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./contact.scss";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
+  const [showAlert, setShowAlert] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,6 +19,13 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          // Show the alert upon successful submission
+          setShowAlert(true);
+          
+          // Hide the alert after 3 seconds
+          setTimeout(() => {
+            setShowAlert(false);
+          }, 3000);
         },
         (error) => {
           console.log(error.text);
@@ -33,7 +41,20 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="row justify-content-center align-items-center">
-          <form className="col-10 col-lg-8 contact__form" ref={form} onSubmit={sendEmail}>
+          {/* Alert for successful submission */}
+          {showAlert && (
+            <div
+              className="alert alert-success mt-3 col-10 col-lg-8"
+              role="alert"
+            >
+              Your message has been sent successfully!
+            </div>
+          )}
+          <form
+            className="col-10 col-lg-8 contact__form"
+            ref={form}
+            onSubmit={sendEmail}
+          >
             <input
               type="text"
               name="name"

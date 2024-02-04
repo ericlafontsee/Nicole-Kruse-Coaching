@@ -4,7 +4,6 @@ import DetailCards from "./DetailCards";
 
 // import Swiper core and required modules
 import { Autoplay, Pagination } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -27,8 +26,8 @@ const Details = () => {
             disableOnInteraction: false
           }}
           breakpoints={{
-            // when window width is >= 768px
-            768: {
+            // when window width is >= 992px
+            992: {
               slidesPerView: 3
             }
           }}

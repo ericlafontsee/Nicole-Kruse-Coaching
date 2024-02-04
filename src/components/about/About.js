@@ -8,7 +8,7 @@ const About = () => {
       <div className="container about__container">
         <div className="row align-items-center justify-content-evenly">
         <h2>About Me</h2>
-          <div className="order-2 order-md-1 col-10 col-md-6 mb-5 mb-md-0 mt-5 mt-md-0">
+          <div className="order-2 order-lg-1 col-10 col-lg-6 mb-5 mb-lg-0 mt-5 mt-lg-0">
             <p>
               I am a certified macro coach and registered nurse. Also, a mom of
               2, dog lover, and 30-something trying to balance it all in this
@@ -29,7 +29,7 @@ const About = () => {
               life.
             </p>
           </div>
-          <div className="order-1 order-md-2 col-10 col-md-4 about__portrait">
+          <div className="order-1 order-lg-2 col-10 col-lg-4 about__portrait">
             <img
               className="img-fluid mx-auto about__portrait--image"
               src={NICOLE}

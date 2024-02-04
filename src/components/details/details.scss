@@ -9,13 +9,8 @@ $background-gradient: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
   border-radius: 2rem;
   margin: 0 1rem;
 
-
   .foundation {
     &__container {
-      &__option {
-        // Styles specific to .details__container__option
-      }
-
       #option1,
       #option2,
       #option3 {
@@ -60,7 +55,7 @@ $background-gradient: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
         bottom: 0;
         padding-bottom: 2rem;
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 992px) {
           display: none;
         }
       }
@@ -72,7 +67,7 @@ $background-gradient: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/20
   &__container {
     margin-top: -5rem;
     display: none;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       display: block;
     }
   }

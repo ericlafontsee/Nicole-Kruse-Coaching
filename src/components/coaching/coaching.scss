@@ -3,20 +3,16 @@
     &__container {
       position: relative;
     }
-
-    &__svg {
-      width: 95%;
-    }
-
     // Portrait Styles
     &__portrait {
       position: relative;
       z-index: 0;
+      max-width: 400px;
 
-      &--image{
+      &--image {
         border-radius: 1rem;
         box-shadow: inset 0 0 1px 1px hsla(0, 0%, 100%, 0.9),
-        0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+          0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
       }
 
       &:after {
@@ -31,11 +27,19 @@
         z-index: -1;
         border-radius: 1rem;
 
-
-      @media screen and (min-width: 768px){
-        bottom: 20px;
-        left: 20px;
+        @media screen and (min-width: 768px) {
+          bottom: 20px;
+          left: 20px;
+        }
       }
+    }
+
+    // List Styles
+    &__list {
+      svg {
+        width: 95% !important;
+        max-width: 27px;
+        vertical-align: middle;
       }
     }
   }

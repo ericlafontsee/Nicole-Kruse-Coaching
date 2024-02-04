@@ -37,8 +37,8 @@ const Testimonials = () => {
             spaceBetween={40}
             slidesPerView={1}
             breakpoints={{
-              // when window width is >= 768px
-              768: {
+              // when window width is >= 992px
+              992: {
                 slidesPerView: 3
               }
             }}
