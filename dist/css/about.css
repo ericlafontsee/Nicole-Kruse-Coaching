@@ -1,0 +1,39 @@
+.about__container {
+  position: relative;
+}
+
+.about__svg {
+  width: 95%;
+}
+
+.about__portrait {
+  position: relative;
+  max-width: 400px;
+}
+
+.about__portrait--image {
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+          box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.about__portrait:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #EBCFC4;
+  bottom: 15px;
+  left: 15px;
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about__portrait:after {
+    bottom: 20px;
+    left: 20px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

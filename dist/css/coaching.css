@@ -1,0 +1,42 @@
+#coaching .coaching__container {
+  position: relative;
+}
+
+#coaching .coaching__portrait {
+  position: relative;
+  z-index: 0;
+  max-width: 400px;
+}
+
+#coaching .coaching__portrait--image {
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+          box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+#coaching .coaching__portrait:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ebcfc4;
+  bottom: 15px;
+  right: 15px;
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  #coaching .coaching__portrait:after {
+    bottom: 20px;
+    left: 20px;
+  }
+}
+
+#coaching .coaching__list svg {
+  width: 95% !important;
+  max-width: 27px;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=coaching.css.map */

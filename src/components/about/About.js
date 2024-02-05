@@ -34,6 +34,7 @@ const About = () => {
               className="img-fluid mx-auto about__portrait--image"
               src={NICOLE}
               alt="Nicole Kruse Headshot"
+              loading="lazy"
             />
           </div>
         </div>

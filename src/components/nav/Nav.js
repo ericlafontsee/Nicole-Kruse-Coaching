@@ -43,7 +43,7 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home">
+              <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
             </li>

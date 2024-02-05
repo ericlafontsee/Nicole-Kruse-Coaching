@@ -1,0 +1,100 @@
+#foundation {
+  background: radial-gradient(circle, white 0%, rgba(244, 238, 225, 0.873009) 100%);
+  border-radius: 2rem;
+  margin: 0 1rem;
+}
+
+#foundation .foundation__container #option1,
+#foundation .foundation__container #option2,
+#foundation .foundation__container #option3 {
+  background-size: cover;
+  background-position: center top;
+  -webkit-box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+  height: 60vh;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#foundation .foundation__container #option1 p,
+#foundation .foundation__container #option2 p,
+#foundation .foundation__container #option3 p {
+  color: #000;
+  z-index: 3;
+}
+
+#foundation .foundation__container #option1 {
+  background-image: url("../../assets/headshot-2.jpg");
+}
+
+#foundation .foundation__container #option2 {
+  background-image: url("../../assets/headshot-3.jpg");
+}
+
+#foundation .foundation__container #option3 {
+  background-image: url("../../assets/headshot-4.jpg");
+}
+
+#foundation .foundation__container .foundation__card {
+  -webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+          box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: saturate(200%) blur(30px);
+          backdrop-filter: saturate(200%) blur(30px);
+  background-color: #ffffffcc !important;
+  z-index: 1;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  #foundation .foundation__container .foundation__card {
+    display: none;
+  }
+}
+
+.card__container {
+  margin-top: -5rem;
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .card__container {
+    display: block;
+  }
+}
+
+.card__options {
+  -webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+          box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+  border-radius: 1rem;
+  -webkit-backdrop-filter: saturate(200%) blur(30px);
+          backdrop-filter: saturate(200%) blur(30px);
+  background-color: #ffffffcc !important;
+  z-index: 1;
+}
+
+.card__option hr {
+  position: absolute;
+  background-color: transparent;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 1px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(rgba(0, 0, 0, 0.4)), to(transparent));
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.4), transparent);
+}
+/*# sourceMappingURL=details.css.map */
