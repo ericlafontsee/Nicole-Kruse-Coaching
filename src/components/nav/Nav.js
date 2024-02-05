@@ -26,7 +26,7 @@ const Nav = () => {
   return (
     <nav className={navClass}>
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#" alt="Nicole Kruse Coaching Logo">
           <img src={LOGO} />
         </a>
         <button
