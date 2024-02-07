@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&family=Quicksand&display=swap");
 
+@import "./variables";
+@import "./components/nav/nav";
+@import "./components/header/header";
+@import "./components/about/about";
+@import "./components/details/details";
+@import "./components/coaching/coaching";
+@import "./components/testimonials/testimonials";
+@import "./components/contact/contact";
+@import "./components/footer/footer";
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +21,6 @@
 
 :root {
   font-size: 1.2rem;
-  --color-bg: #fff;
-  --color-primary: #ebcfc4;
-  --color-primary-variant: #fee9e1;
-  --color-black: #000;
-  --color-light: rgba(255, 255, 255, 0.6);
 }
 
 html {
@@ -69,11 +73,11 @@ section {
 }
 
 a {
-  color: var(--color-primary);
+  color: $color-primary;
 }
 
 a:hover {
-  color: var(--color-white);
+  color: $color-white;
 }
 
 .btn-primary {
@@ -81,15 +85,15 @@ a:hover {
   display: inline-block;
   padding: 0.75rem 1.2rem;
   cursor: pointer;
-  background: var(--color-primary);
-  color: var(--color-black);
-  border: 1px solid var(--color-primary) !important;
+  background: $color-primary;
+  color: $color-black;
+  border: 1px solid $color-primary !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 50px;
 
   &:hover {
     color: rgba(0,0,0,0.5) !important;
-    background: var(--color-primary-variant) !important;
+    background: $color-primary-variant !important;
   }
 
   &:active{

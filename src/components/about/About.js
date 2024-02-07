@@ -1,5 +1,4 @@
 import React from "react";
-import "./about.scss";
 import NICOLE from "../../assets/headshot-7.jpg";
 
 const About = () => {

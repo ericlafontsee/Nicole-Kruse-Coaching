@@ -1,5 +1,4 @@
 import React from "react";
-import "./testimonials.scss";
 import { RiStarSFill } from "react-icons/ri";
 
 // import Swiper core and required modules

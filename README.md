@@ -45,7 +45,6 @@ To run these scripts, use the command `npm run [script-name]` in your terminal.
 - `src`: Houses the source code for the React application.
   - `assets`: For images, fonts, or other static resources.
   - `components`: React components organized by functionality.
-  - `styles`: Global styles and styling utilities.
   - `App.js`: The main component where the app is assembled.
   - `index.js`: Entry point to render the React app.
 
@@ -60,6 +59,7 @@ To run these scripts, use the command `npm run [script-name]` in your terminal.
 
 - This project uses [React Router](https://reactrouter.com/) for navigation.
 - [Swiper](https://swiperjs.com/) is integrated for carousel functionality.
+- Animations - Copyright (c) 2024 by Álvaro (https://codepen.io/alvarotrigo/pen/ExvqdNa)
 - Feel free to customize and expand upon the existing components and styles.
 - For production build, use `npm run build`.
 

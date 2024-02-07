@@ -1,5 +1,4 @@
 import React from "react";
-import "./coaching.scss";
 import NICOLE from "../../assets/headshot-6.jpg";
 import { LuClipboardList } from "react-icons/lu";
 import { FaAppStore } from "react-icons/fa";

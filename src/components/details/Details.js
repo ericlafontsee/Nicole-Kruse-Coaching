@@ -1,5 +1,4 @@
 import React from "react";
-import "./details.scss";
 import DetailCards from "./DetailCards";
 
 // import Swiper core and required modules

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./nav.scss";
 import LOGO from "../../assets/nk-logo.png";
 
 const Nav = () => {
