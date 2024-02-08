@@ -61,11 +61,11 @@ const Nav = () => {
                 Coaching
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#testimonials">
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#contact">
                 Contact
