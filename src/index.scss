@@ -72,14 +72,12 @@ section {
 
 }
 
-a{
-  color: $color-black;
-  text-decoration: none;
-  font-size: 1.5rem;
+a {
+  color: $color-primary;
 }
 
 a:hover {
-  color: #6f6d6d;
+  color: $color-white;
 }
 
 .btn-primary {
