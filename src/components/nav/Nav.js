@@ -76,7 +76,7 @@ const Nav = () => {
           </ul>
           <button
             type="button"
-            class="btn btn-primary btn-sm px-3 py-2 mb-2 mb-lg-0 apply-btn"
+            class="btn btn-primary px-3 py-2 mb-2 mb-lg-0 apply-btn"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
           >
