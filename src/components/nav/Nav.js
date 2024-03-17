@@ -41,7 +41,7 @@ const Nav = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarScroll">
+        <div className="collapse navbar-collapse text-end" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
@@ -76,7 +76,7 @@ const Nav = () => {
           </ul>
           <button
             type="button"
-            class="btn btn-primary btn-sm px-3 py-2"
+            class="btn btn-primary btn-sm px-3 py-2 mb-2 mb-lg-0 apply-btn"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
           >

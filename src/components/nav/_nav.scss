@@ -19,5 +19,13 @@
 }
 
 .navbar-collapse li {
-  text-align: right;
+  text-align: left;
+}
+
+.apply-btn{
+  margin-right: -19px;
+
+  @media screen and (min-width: 992px){
+    margin-right: 0;
+  }
 }
