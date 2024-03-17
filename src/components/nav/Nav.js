@@ -20,13 +20,15 @@ const Nav = () => {
     };
   }, []); // Empty dependency array ensures that this effect runs once on mount
 
-  const navClass = scrolled ? "navbar navbar-scrolled navbar-expand-lg fixed-top" : "navbar navbar-expand-lg fixed-top";
+  const navClass = scrolled
+    ? "navbar navbar-scrolled navbar-expand-lg fixed-top"
+    : "navbar navbar-expand-lg fixed-top";
 
   return (
     <nav className={navClass}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src={LOGO}  alt="Nicole Kruse Coaching Logo"/>
+          <img src={LOGO} alt="Nicole Kruse Coaching Logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -72,6 +74,14 @@ const Nav = () => {
               </a>
             </li>
           </ul>
+          <button
+            type="button"
+            class="btn btn-primary btn-sm px-3 py-2"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Apply Here!
+          </button>
         </div>
       </div>
     </nav>
