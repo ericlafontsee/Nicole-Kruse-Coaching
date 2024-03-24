@@ -12,9 +12,7 @@
 
     &__card {
       user-select: none;
-      background: transparent;
-      // background-image: linear-gradient(310deg, #F4EEE1, $color-primary);
-      box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+      background-color: transparent;
       box-shadow: none;
       border-radius: 1rem;
 
@@ -25,6 +23,14 @@
         margin: 0 auto 0;
         font-size: 0.85rem;
       }
+    }
+  }
+
+  // Middle Testimonial
+  .middleCard {
+    @media screen and (min-width: 768px){
+      background-image: linear-gradient(310deg, #F4EEE1, $color-primary);
+      box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
     }
   }
 }
