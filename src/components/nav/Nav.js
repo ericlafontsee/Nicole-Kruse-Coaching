@@ -64,6 +64,11 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#macros">
+                Macros
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#testimonials">
                 Testimonials
               </a>

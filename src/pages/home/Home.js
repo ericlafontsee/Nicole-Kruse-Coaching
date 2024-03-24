@@ -8,6 +8,7 @@ import Testimonials from '../../components/testimonials/Testimonials';
 import Contact from "../../components/contact/Contact";
 import Footer from "../../components/footer/Footer";
 import Modal from "../../components/modal/Modal";
+import Macros from "../../components/macros/Macros";
 const Home = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home = () => {
       <About />
       <Details />
       <Coaching />
+      <Macros />
       <Testimonials />
       <Contact />
       <Footer />
