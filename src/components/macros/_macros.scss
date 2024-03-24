@@ -1,11 +1,12 @@
 #macros {
   .macros {
-    svg {
-      width: 95% !important;
-      max-width: 27px;
-      vertical-align: middle;
+    &__list {
+      svg {
+        width: 95% !important;
+        max-width: 27px;
+        vertical-align: middle;
+      }
     }
-
     // Portrait Styles
     &__portrait {
       position: relative;
